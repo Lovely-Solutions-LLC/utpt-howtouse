@@ -1,0 +1,18 @@
+/* src/components/Header.css */
+
+.header-section {
+    padding: 60px 0 30px 0;
+    background-color: #fff;
+  }
+  
+  .main-header {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .sub-header {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 10px;
+  }
+  

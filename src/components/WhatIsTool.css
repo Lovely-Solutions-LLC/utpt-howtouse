@@ -1,0 +1,46 @@
+/* src/components/WhatIsTool.css */
+
+.what-is-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .what-is-text {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .what-is-text h3 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .what-is-text p {
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .bulleted-list {
+    text-align: left;
+  }
+  
+  .what-is-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .what-is-image img {
+    max-width: 700px;
+    height: 900px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
