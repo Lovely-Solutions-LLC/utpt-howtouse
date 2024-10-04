@@ -1,18 +1,25 @@
 /* src/App.css */
 
-/* Apply Raleway font globally */
-body {
+/* CSS Reset */
+* {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  background-color: #ffffff; /* Changed from #f9f9f9 to white for a cleaner look */
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Ensure html and body take full height */
+html, body {
+  height: 100%;
+}
+
+/* Main App container */
 .App {
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #ffffff; /* Changed from #f9f9f9 to white for a cleaner look */
 }
 
 /* Utility classes */
@@ -34,23 +41,4 @@ body {
   list-style-type: disc;
   padding-left: 20px;
   text-align: left;
-}
-
-/* Removed footer styles as they're now in Footer.css */
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .what-is-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .what-is-text,
-  .what-is-image {
-    text-align: center;
-  }
-
-  .faqs-grid {
-    grid-template-columns: 1fr;
-  }
 }
