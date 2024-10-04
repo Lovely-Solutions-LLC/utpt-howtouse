@@ -1,46 +1,49 @@
 /* src/components/WhatIsTool.css */
 
 .what-is-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #fff;
-    padding: 40px 20px;
-  }
-  
-  .what-is-text {
-    flex: 1;
-    margin-right: 20px;
-    text-align: left;
-  }
-  
-  .what-is-text h3 {
-    font-size: 2em;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  
-  .what-is-text p {
-    font-size: 1em;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  
-  .bulleted-list {
-    text-align: left;
-  }
-  
-  .what-is-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .what-is-image img {
-    max-width: 700px;
-    height: 900px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fdf2ea; /* Incorporated new color */
+  padding: 40px 20px;
+}
+
+.what-is-text {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.what-is-text h3 {
+  font-size: 1.8em; /* Reduced font size */
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.what-is-text p {
+  font-size: 0.95em; /* Reduced font size */
+  text-align: left;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.bulleted-list {
+  text-align: left;
+  color: #555;
+}
+
+.what-is-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-is-image img {
+  max-width: 60%; /* Scaled down to 60% */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}

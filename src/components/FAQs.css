@@ -1,40 +1,42 @@
 /* src/components/FAQs.css */
 
 .faqs-section {
-    background-color: #fff;
-    padding: 40px 20px;
-  }
-  
-  .faqs-section h3 {
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
-  
+  background-color: #fdf2ea; /* Incorporated new color */
+  padding: 40px 20px;
+}
+
+.faqs-section h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.faqs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.faq-item {
+  background-color: #fef3fc; /* Incorporated new color */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.faq-item h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .faqs-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: 1fr;
   }
-  
-  .faq-item {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .faq-item h4 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .faq-item p {
-    font-size: 1em;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .faqs-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  
+}

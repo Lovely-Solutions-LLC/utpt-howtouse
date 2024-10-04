@@ -22,7 +22,7 @@ const WhatIsTool = () => {
       </div>
       <div className="what-is-image" data-aos="fade-left">
         <img
-          src="/assets/tool-image.png"
+          src="/assets/tool-image.jpg"
           alt="Ultimate Team Productivity Tool"
           width="700"
           height="900"
