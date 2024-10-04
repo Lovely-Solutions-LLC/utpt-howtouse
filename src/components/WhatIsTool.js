@@ -14,7 +14,7 @@ const WhatIsTool = () => {
           <li>The 'Hub" Page: At a glance visibility over team activity</li>
           <li>The 'Reports' Page: Detailed reports on team and board activity from various time periods</li>
           <li>The 'Master Logs' Page: Filter-able and text searchable logs for digging into specific details.</li>
-          <li>Automated Email Reports: (Coming Son) Choose your key datapoints and a frequency, and we'll deliver them to your inbox!</li>
+          <li>Automated Email Reports: (Coming Soon) Choose your key datapoints and a frequency, and we'll deliver them to your inbox!</li>
         </ul>
       </div>
       <div className="what-is-image" data-aos="fade-left">

@@ -16,13 +16,13 @@ const FAQs = () => {
         <div className="faq-item" data-aos="flip-up" data-aos-delay="100">
           <h4>What counts as an 'activity'?</h4>
           <p>
-            An 'activity' in our app is any entry in the 'board-level' activity logs. There are a few redundant activity types (something that would cause double counting)that are fitered out of the calculations.
+            An 'activity' in our app is any entry in the 'board-level' activity logs. There are a few redundant activity types (something that would cause double counting) that are fitered out of the calculations.
           </p>
         </div>
         <div className="faq-item" data-aos="flip-up" data-aos-delay="200">
           <h4>Is there a support team available?</h4>
           <p>
-            Absolutely! Our dedicated support team is available around the clock to help you out if you are experiencing any issues or would like a hand.
+            Absolutely! Our dedicated support team is available around the clock to help you out if you are experiencing any issues or would like a hand setting up the app.
           </p>
         </div>
         <div className="faq-item" data-aos="flip-up" data-aos-delay="300">
