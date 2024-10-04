@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: frame-ancestors https://*.monday.com
+  Content-Security-Policy: frame-ancestors https://monday.com https://*.monday.com https://iframeTester.com
