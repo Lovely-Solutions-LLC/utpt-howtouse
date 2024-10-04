@@ -8,16 +8,13 @@ const WhatIsTool = () => {
       <div className="what-is-text" data-aos="fade-right">
         <h3>What is the Ultimate Team Productivity Tool?</h3>
         <p>
-          The Ultimate Team Productivity Tool is designed to enhance your workflow,
-          streamline processes, and maximize efficiency within monday.com. Whether
-          you're managing projects, tracking tasks, or collaborating with your team,
-          our tool provides the necessary features to ensure success.
+        Ultimate Team Productivity Tracker is THE solution for teams using monday.com to track and optimize their activities across all boards with one simple interface. This powerful app combines monday.com activity log data from any boards in your workspace into one comprehensive hub, giving you insight into your team's workflow and productivity..
         </p>
         <ul className="bulleted-list">
-          <li>Feature 1: Seamless integration with existing workflows.</li>
-          <li>Feature 2: Real-time collaboration and communication.</li>
-          <li>Feature 3: Advanced analytics and reporting.</li>
-          <li>Feature 4: Customizable dashboards and views.</li>
+          <li>The 'Hub" Page: At a glance visibility over team activity</li>
+          <li>The 'Reports' Page: Detailed reports on team and board activity from various time periods</li>
+          <li>The 'Master Logs' Page: Filter-able and text searchable logs for digging into specific details.</li>
+          <li>Automated Email Reports: (Coming Son) Choose your key datapoints and a frequency, and we'll deliver them to your inbox!</li>
         </ul>
       </div>
       <div className="what-is-image" data-aos="fade-left">
