@@ -1,18 +1,20 @@
 /* src/components/Header.css */
 
 .header-section {
-  padding: 50px 0 20px 0;
-  background-color: #fef3fc; /* Incorporated new color */
+  padding: 50px 40px 20px 40px; /* Increased left and right padding to 40px */
+  background-color: #fef3fc; /* Existing background color */
+  border-radius: 15px; /* Rounded corners with 15px radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
 }
 
 .main-header {
-  font-size: 2.5em; /* Reduced from 3em to 2.5em */
+  font-size: 2.5em; /* Existing font size */
   margin: 0;
-  color: #333;
+  color: #333; /* Existing text color */
 }
 
 .sub-header {
-  font-size: 1.2em; /* Reduced from 1.5em to 1.2em */
-  color: #555;
+  font-size: 1.2em; /* Existing font size */
+  color: #555; /* Existing text color */
   margin-top: 10px;
 }

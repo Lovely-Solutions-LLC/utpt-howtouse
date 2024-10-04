@@ -4,8 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #fdf2ea; /* Incorporated new color */
+  background-color: #fdf2ea; /* Existing background color */
   padding: 40px 20px;
+  border-radius: 15px; /* Rounded corners with 15px radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
 }
 
 .what-is-text {
@@ -15,22 +17,22 @@
 }
 
 .what-is-text h3 {
-  font-size: 1.8em; /* Reduced font size */
+  font-size: 1.8em; /* Existing font size */
   text-align: left;
   margin-bottom: 20px;
-  color: #333;
+  color: #333; /* Existing text color */
 }
 
 .what-is-text p {
-  font-size: 0.95em; /* Reduced font size */
+  font-size: 0.95em; /* Existing font size */
   text-align: left;
   margin-bottom: 20px;
-  color: #555;
+  color: #555; /* Existing text color */
 }
 
 .bulleted-list {
   text-align: left;
-  color: #555;
+  color: #555; /* Existing text color */
 }
 
 .what-is-image {
@@ -41,9 +43,9 @@
 }
 
 .what-is-image img {
-  max-width: 60%; /* Scaled down to 60% */
+  max-width: 60%; /* Existing scaling */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Existing shadow */
 }

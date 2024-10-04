@@ -1,14 +1,16 @@
 /* src/components/FAQs.css */
 
 .faqs-section {
-  background-color: #fdf2ea; /* Incorporated new color */
+  background-color: #fdf2ea; /* Existing background color */
   padding: 40px 20px;
+  border-radius: 15px; /* Rounded corners with 15px radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
 }
 
 .faqs-section h3 {
-  font-size: 2em;
+  font-size: 2em; /* Existing font size */
   margin-bottom: 30px;
-  color: #333;
+  color: #333; /* Existing text color */
 }
 
 .faqs-grid {
@@ -18,20 +20,21 @@
 }
 
 .faq-item {
-  background-color: #fef3fc; /* Incorporated new color */
+  background-color: #fef3fc; /* Existing background color */
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px; /* Rounded corners with 10px radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
 }
 
 .faq-item h4 {
-  font-size: 1.2em;
+  font-size: 1.2em; /* Existing font size */
   margin-bottom: 10px;
-  color: #333;
+  color: #333; /* Existing text color */
 }
 
 .faq-item p {
-  font-size: 1em;
-  color: #555;
+  font-size: 1em; /* Existing font size */
+  color: #555; /* Existing text color */
 }
 
 /* Responsive adjustments */
