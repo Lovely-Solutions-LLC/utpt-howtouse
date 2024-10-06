@@ -9,7 +9,7 @@ const VideoEmbed = () => {
         <iframe
           width="100%"
           height="500px"
-          src="https://www.loom.com/share/3aaa00bbfcd446bea038c73d24008127?sid=dc353df8-a7ed-47b8-89ac-23cdd8adef23"
+          src="https://www.youtube.com/embed/oeHkibEAG50"
           title="The Ultimate Team Productivity Tool Overview"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
