@@ -8,7 +8,7 @@ const WhatIsTool = () => {
       <div className="what-is-text" data-aos="fade-right">
         <h3>What is Master Activity Logs?</h3>
         <p>
-        Ultimate Team Productivity Tool is THE solution for teams using monday.com to track and optimize their activities across all boards with one simple interface. This powerful app combines monday.com activity log data from any boards in your workspace into one comprehensive hub, giving you insight into your team's workflow and productivity..
+        Master Activity Logs is THE solution for teams using monday.com to track and optimize their activities across all boards with one simple interface. This powerful app combines monday.com activity log data from any boards in your workspace into one comprehensive hub, giving you insight into your team's workflow and productivity..
         </p>
         <ul className="bulleted-list">
           <li>The 'Hub" Page: At a glance visibility over team activity</li>
