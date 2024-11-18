@@ -6,7 +6,7 @@ const WhatIsTool = () => {
   return (
     <section className="what-is-section section" data-aos="fade-up">
       <div className="what-is-text" data-aos="fade-right">
-        <h3>What is the Ultimate Team Productivity Tool?</h3>
+        <h3>What is Master Activity Logs?</h3>
         <p>
         Ultimate Team Productivity Tool is THE solution for teams using monday.com to track and optimize their activities across all boards with one simple interface. This powerful app combines monday.com activity log data from any boards in your workspace into one comprehensive hub, giving you insight into your team's workflow and productivity..
         </p>
