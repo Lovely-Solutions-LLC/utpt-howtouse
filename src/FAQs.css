@@ -5,6 +5,7 @@
   padding: 40px 20px;
   border-radius: 15px; /* Rounded corners with 15px radius */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
+  width: 100%; /* Added: ensure full width */
   max-width: 1200px; /* Added: Ensure section doesn't get too wide */
   margin: 0 auto; /* Added: Center the section */
 }
@@ -19,8 +20,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px; /* Increased from 20px for better spacing with 6 items */
+  width: 100%; /* Added: ensure full width */
   max-width: 1100px; /* Added: Control maximum width of the grid */
   margin: 0 auto; /* Added: Center the grid */
+  padding: 0 20px; /* Added: give some breathing room */
 }
 
 .faq-item {
@@ -28,7 +31,8 @@
   padding: 25px; /* Increased from 20px for better content spacing */
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
-  height: 100%; /* Added: Ensure consistent height in grid rows */
+  min-height: 150px; /* Added: ensure minimum height */
+  width: 100%; /* Added: ensure full width */
   display: flex; /* Added: For better content organization */
   flex-direction: column; /* Added: Stack header and content vertically */
 }
