@@ -31,6 +31,18 @@ const FAQs = () => {
             Yes, by navigating to the 'settings' gear in the top right of the app, you can use the "Reconfigure" button to update the board/user configuration of the app.
           </p>
         </div>
+        <div className="faq-item" data-aos="flip-up" data-aos-delay="400">
+          <h4>Is there a limit to how many boards I can track?</h4>
+          <p>
+            Yes, there's a limit to the number of boards you can track. This value will be dependent on the plan you have. The trial period allows for up to 6 boards, and the free plan allows for up to 2.
+          </p>
+        </div>
+        <div className="faq-item" data-aos="flip-up" data-aos-delay="500">
+          <h4>Do dashboard settings or widget filters apply to the app?</h4>
+          <p>
+            No, our app operates independently of the dashboard settings and widget filters. Boards that are connected to a dashboard with our app on it do not affect the app's configuration.
+          </p>
+        </div>
       </div>
     </section>
   );
